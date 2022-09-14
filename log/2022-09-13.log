@@ -1,0 +1,9 @@
+2022-09-13 17:22:27.749 | INFO     | utils.readYamlCase:run_yaml:35 - 正在执行用例:test01-title
+2022-09-13 17:22:27.749 | INFO     | utils.requestutils:request_send:8 - 请求的url为https://fanyi.baidu.com/langdetect
+2022-09-13 17:22:27.749 | INFO     | utils.requestutils:request_send:10 - 请求的method为post
+2022-09-13 17:22:27.749 | INFO     | utils.requestutils:request_send:12 - 请求的data为{'query': 'nba'}
+2022-09-13 17:22:27.749 | INFO     | utils.requestutils:request_send:14 - 请求的headers为{'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.5112.102 Safari/537.36 Edg/104.0.1293.70', 'Referer': 'https://fanyi.baidu.com/?aldtype=16047', 'X-Requested-With': 'XMLHttpRequest', 'Origin': 'https://fanyi.baidu.com', 'Host': 'fanyi.baidu.com'}
+2022-09-13 17:22:27.997 | INFO     | utils.requestutils:request_send:23 - 返回的status_code为200
+2022-09-13 17:22:27.997 | INFO     | utils.requestutils:request_send:24 - 返回的response为{"error":0,"msg":"success","lan":"en"}
+2022-09-13 17:22:27.997 | INFO     | utils.readYamlCase:run_yaml:39 - 用例执行成功，请求的结果为{'code': 200, 'body': {'error': 0, 'msg': 'success', 'lan': 'en'}}
+2022-09-13 17:22:27.997 | INFO     | utils.readYamlCase:assert_respoes:75 - 无返回，用例断言成功
